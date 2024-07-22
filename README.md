@@ -22,6 +22,9 @@ This Python project provides real-time translation of text captured from your sc
 6. Press the alt key to capture text, translate it, and hear the output.
 
 # Voice cloning:
+1. Record at least a 30-second long sample of your voice.
+2. Save the recording as a .wav file.
+3. Place the .wav file in the targets directory.
 
 # Languages
 - "Arabic": "ar",
