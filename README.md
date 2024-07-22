@@ -2,10 +2,10 @@
 This Python project provides real-time translation of text captured from your screen and converts it into speech. Using OCR (Optical Character Recognition) and translation APIs, the tool identifies text within a user-specified screen region, translates it into a target language, and plays the translated text using a text-to-speech model.
 
 # Features
-- Multiple Voice Support: Allows users to select different voices for text-to-speech conversion [Example Results 🔊](#examples).
+- Multiple Voice Support: Allows users to select different voices for text-to-speech conversion.
 - OCR and Translation: Utilizes Tesseract for OCR and Google Translator for language translation.
 - Audio Playback: Uses playsound to play the generated speech audio.
-- Flexible Language Selection: Supports up to [16 languages](#language-support) for speech output.
+- Flexible Language Selection: Supports up to [16 languages](#Languages) for speech output.
 
 # Setup
 1. Clone this git repository.
@@ -21,14 +21,31 @@ This Python project provides real-time translation of text captured from your sc
 5. Position the mouse at the top-left and bottom-right corners of the region to capture.
 6. Press the alt key to capture text, translate it, and hear the output.
 
-## Voice cloning:
+# Voice cloning:
 
+# Languages
+- "Arabic": "ar",
+- "Chinese": "zh-cn",
+- "Czech": "cs",
+- "Dutch": "nl",
+- "English": "en",
+- "French": "fr",
+- "German": "de",
+- "Hungarian": "hu",
+- "Italian": "it",
+- "Japanese": "ja",
+- "Korean": "ko",
+- "Polish": "pl",
+- "Portuguese": "pt",
+- "Russian": "ru",
+- "Spanish": "es",
+- "Turkish": "tr"
 
-## Model 
+# Model 
 The model used is `tts_models/multilingual/multi-dataset/xtts_v2`. For more details, refer to [Hugging Face - XTTS-v2](https://huggingface.co/coqui/XTTS-v2) and its specific version [XTTS-v2 Version 2.0.2](https://huggingface.co/coqui/XTTS-v2/tree/v2.0.2).
 
-## Credits
+# Credits
 - Heavily based on https://github.com/kanttouchthis/text_generation_webui_xtts/ and XTTS-2-UI: A User Interface for XTTS-2 Text-Based Voice Cloning
 
-## Author
+# Author
 Created by Máté Jakus
