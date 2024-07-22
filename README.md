@@ -20,7 +20,7 @@ This Python project provides real-time translation of text captured from your sc
 2. If prompted, enter the Tesseract installation path.
 3. Choose a voice from the available options.
 4. Select a target language for translation.
-5. Position the mouse at the top-left and bottom-right corners of the region to capture.
+5. Position the mouse at the top-left and bottom-right corners of the region to capture. ![howto](https://github.com/user-attachments/assets/3127470a-c7bc-48ba-8478-8b7538b5b076)
 6. Press the alt key to capture text, translate it, and hear the output.
 
 # Voice cloning:
