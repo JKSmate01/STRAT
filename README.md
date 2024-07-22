@@ -9,9 +9,11 @@ This Python project provides real-time translation of text captured from your sc
 
 # Setup
 1. Clone this git repository.
-2. Download the virtual enviroment for this project from: https://huggingface.co/datasets/materx26/SRTVenv/tree/main
-3. Download and setup Tesseract OCR (Note the installation path.) : https://digi.bib.uni-mannheim.de/tesseract/
-4. Run "run.bat".
+2. If you haven't already install nvcc : https://developer.nvidia.com/cuda-downloads .
+3. run setup.bat .
+4. Install the appropriate version of pytorch for cuda by running setupCuda.bat (replace the url in the .bat file with the appropriate version)
+5. Download and setup Tesseract OCR (Note the installation path.) : https://digi.bib.uni-mannheim.de/tesseract/
+6. Run "run.bat".
 
 # Usage:
 1. Run "run.bat".
