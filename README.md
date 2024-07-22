@@ -1,14 +1,34 @@
-#Setup
-https://huggingface.co/datasets/materx26/SRTVenv/tree/main
+# STRAT: Screen Translation and Real-Time Audio Text-to-Speech:
+This Python project provides real-time translation of text captured from your screen and converts it into speech. Using OCR (Optical Character Recognition) and translation APIs, the tool identifies text within a user-specified screen region, translates it into a target language, and plays the translated text using a text-to-speech model.
 
-# XTTS-2-UI: A User Interface for XTTS-2 Text-Based Voice Cloning
+# Features
+- Multiple Voice Support: Allows users to select different voices for text-to-speech conversion [Example Results 🔊](#examples).
+- OCR and Translation: Utilizes Tesseract for OCR and Google Translator for language translation.
+- Audio Playback: Uses playsound to play the generated speech audio.
+- Flexible Language Selection: Supports up to [16 languages](#language-support) for speech output.
 
-This repository contains the essential code for cloning any voice using just text and a 10-second audio sample of the target voice. XTTS-2-UI is simple to setup and use. [Example Results 🔊](#examples)
+# Setup
+1. Clone this git repository.
+2. Download the virtual enviroment for this project from: https://huggingface.co/datasets/materx26/SRTVenv/tree/main
+3. Download and setup Tesseract OCR (Note the installation path.) : https://digi.bib.uni-mannheim.de/tesseract/
+4. Run "run.bat".
 
-Works in [16 languages](#language-support) and has in-built voice recording/uploading.
+# Usage:
+1. Run "run.bat".
+2. If prompted, enter the Tesseract installation path.
+3. Choose a voice from the available options.
+4. Select a target language for translation.
+5. Position the mouse at the top-left and bottom-right corners of the region to capture.
+6. Press the alt key to capture text, translate it, and hear the output.
+
+## Voice cloning:
+
 
 ## Model 
 The model used is `tts_models/multilingual/multi-dataset/xtts_v2`. For more details, refer to [Hugging Face - XTTS-v2](https://huggingface.co/coqui/XTTS-v2) and its specific version [XTTS-v2 Version 2.0.2](https://huggingface.co/coqui/XTTS-v2/tree/v2.0.2).
 
 ## Credits
-1. Heavily based on https://github.com/kanttouchthis/text_generation_webui_xtts/ 
+- Heavily based on https://github.com/kanttouchthis/text_generation_webui_xtts/ and XTTS-2-UI: A User Interface for XTTS-2 Text-Based Voice Cloning
+
+## Author
+Created by Máté Jakus
