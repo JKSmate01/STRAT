@@ -7,7 +7,7 @@ This Python project provides real-time translation of text captured from your sc
 - Audio Playback: Uses playsound to play the generated speech audio.
 - Flexible Language Selection: Supports up to [16 languages](#Languages) for speech output.
 
-# Setup
+# Setup (only on Python 3.8-3.11)
 1. Clone this git repository.
 2. If you haven't already install nvcc : https://developer.nvidia.com/cuda-downloads .
 3. run setup.bat .
