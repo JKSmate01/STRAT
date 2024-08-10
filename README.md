@@ -50,7 +50,7 @@ This Python project provides real-time translation of text captured from your sc
 The model used is `tts_models/multilingual/multi-dataset/xtts_v2`. For more details, refer to [Hugging Face - XTTS-v2](https://huggingface.co/coqui/XTTS-v2) and its specific version [XTTS-v2 Version 2.0.2](https://huggingface.co/coqui/XTTS-v2/tree/v2.0.2).
 
 # Credits
-- Heavily based on https://github.com/kanttouchthis/text_generation_webui_xtts/ and https://github.com/BoltzmannEntropy/xtts2-ui
+- Heavily based on https://github.com/kanttouchthis/text_generation_webui_xtts/ and https://github.com/BoltzmannEntropy/xtts2-ui and https://github.com/coqui-ai/TTS
 
 # Author
 Created by Máté Jakus
